@@ -1,12 +1,20 @@
-We define a harmonious array is an array where the difference between its maximum value and its minimum value is exactly 1.
+#We define a harmonious array is an array where the difference between its maximum value and its minimum value is exactly 1.
 
-Now, given an integer array, you need to find the length of its longest harmonious subsequence among all its possible subsequences.
+#Now, given an integer array, you need to find the length of its longest harmonious subsequence among all its possible subsequences.
 
-Example 1:
-Input: [1,3,2,2,5,2,3,7]
-Output: 5
-Explanation: The longest harmonious subsequence is [3,2,2,2,3].
-Note: The length of the input array will not exceed 20,000.
+#Example 1:
+#Input: [1,3,2,2,5,2,3,7]
+#Output: 5
+#Explanation: The longest harmonious subsequence is [3,2,2,2,3].
+#Note: The length of the input array will not exceed 20,000.
+#--------------------------------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------------------------------------
+#Learn how to use function collection.Counter(A)
+#which A is a list
+#the return is list which descrip the count numbers of each element in the list, like A = [1,2,3,43,3,4,2,434,1], 
+#collection.Counter(A) = Counter({1: 2, 2: 2, 3: 2, 4: 1, 43: 1, 434: 1})
+#while the length of Counter is equal to len（A）
 class Solution(object):
     def findLHS(self, nums):
         """
